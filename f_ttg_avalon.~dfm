@@ -4,7 +4,7 @@ object frm_ttg_avalon: Tfrm_ttg_avalon
   BorderStyle = bsToolWindow
   Caption = 'Avalon Studio'
   ClientHeight = 212
-  ClientWidth = 502
+  ClientWidth = 394
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,18 +18,18 @@ object frm_ttg_avalon: Tfrm_ttg_avalon
   object sPanel1: TsPanel
     Left = 0
     Top = 157
-    Width = 502
+    Width = 394
     Height = 55
     Align = alBottom
     TabOrder = 0
     SkinData.SkinSection = 'PANEL'
     DesignSize = (
-      502
+      394
       55)
     object btn_batal: TsSpeedButton
       Left = 5
       Top = 5
-      Width = 493
+      Width = 385
       Height = 45
       Anchors = [akLeft, akTop, akRight, akBottom]
       Caption = '&Ok'
@@ -48,7 +48,7 @@ object frm_ttg_avalon: Tfrm_ttg_avalon
   object sPanel2: TsPanel
     Left = 0
     Top = 0
-    Width = 502
+    Width = 394
     Height = 157
     Align = alClient
     TabOrder = 1
@@ -1339,7 +1339,7 @@ object frm_ttg_avalon: Tfrm_ttg_avalon
       Transparent = True
     end
     object sLabel1: TsLabel
-      Left = 266
+      Left = 212
       Top = 6
       Width = 117
       Height = 24
@@ -1352,15 +1352,15 @@ object frm_ttg_avalon: Tfrm_ttg_avalon
       Font.Style = [fsBold]
     end
     object sLabel2: TsLabel
-      Left = 170
+      Left = 172
       Top = 48
-      Width = 320
+      Width = 206
       Height = 90
       Alignment = taCenter
       Caption = 
         'StudioFoto Mks - BukaTiapHari'#13#10'Utamakan kualitas :)'#13#10'Respon cepa' +
-        't: telp 082328893682'#13#10'Respon santai : line @jxo2641n (pakai @)'#13#10 +
-        'No DM instagram :)'
+        't: telp 0895800980987'#13#10'Instagram : @avalon.studio'#13#10'TikTok: @aval' +
+        'on.studio'
       ParentFont = False
       WordWrap = True
       Font.Charset = DEFAULT_CHARSET

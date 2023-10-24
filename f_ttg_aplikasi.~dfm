@@ -5130,8 +5130,8 @@ object frm_ttg_aplikasi: Tfrm_ttg_aplikasi
     object sLabel2: TsLabel
       Left = 117
       Top = 52
-      Width = 196
-      Height = 36
+      Width = 167
+      Height = 18
       Caption = 'Silahkan klik link di bawah! '
       ParentFont = False
       WordWrap = True
@@ -5142,8 +5142,8 @@ object frm_ttg_aplikasi: Tfrm_ttg_aplikasi
       Font.Style = [fsItalic]
     end
     object sWebLabel1: TsWebLabel
-      Left = 170
-      Top = 88
+      Left = 154
+      Top = 96
       Width = 77
       Height = 26
       Caption = 'di Sini! :)'
