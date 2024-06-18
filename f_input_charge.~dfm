@@ -1,9 +1,9 @@
 object frm_input_charge: Tfrm_input_charge
-  Left = 997
-  Top = 217
+  Left = 708
+  Top = 123
   BorderStyle = bsNone
   Caption = 'frm_input_charge'
-  ClientHeight = 429
+  ClientHeight = 457
   ClientWidth = 344
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -20,7 +20,7 @@ object frm_input_charge: Tfrm_input_charge
     Left = 0
     Top = 0
     Width = 344
-    Height = 369
+    Height = 397
     Align = alClient
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
@@ -32,12 +32,12 @@ object frm_input_charge: Tfrm_input_charge
     SkinData.SkinSection = 'PANEL'
     DesignSize = (
       344
-      369)
+      397)
     object gbox: TsGroupBox
       Left = 9
       Top = -1
       Width = 328
-      Height = 363
+      Height = 391
       Anchors = [akLeft, akTop, akRight, akBottom]
       Caption = 'Data Charge'
       Font.Charset = ANSI_CHARSET
@@ -118,7 +118,7 @@ object frm_input_charge: Tfrm_input_charge
         Left = 14
         Top = 271
         Width = 299
-        Height = 79
+        Height = 114
         Caption = 'Charge Lain-lain'
         Font.Charset = ANSI_CHARSET
         Font.Color = clWindowText
@@ -129,8 +129,8 @@ object frm_input_charge: Tfrm_input_charge
         TabOrder = 1
         SkinData.SkinSection = 'GROUPBOX'
         object sLabel1: TsLabel
-          Left = 38
-          Top = 49
+          Left = 59
+          Top = 76
           Width = 157
           Height = 18
           Caption = '*Ganti Kostum           orang'
@@ -142,8 +142,8 @@ object frm_input_charge: Tfrm_input_charge
           Font.Style = []
         end
         object clain_almamater: TsCheckBox
-          Left = 36
-          Top = 23
+          Left = 55
+          Top = 47
           Width = 174
           Height = 24
           Caption = 'Paket Almamater(+50%)'
@@ -159,8 +159,8 @@ object frm_input_charge: Tfrm_input_charge
           ImgUnchecked = 0
         end
         object edt_jumlahkostum: TsEdit
-          Left = 132
-          Top = 45
+          Left = 153
+          Top = 72
           Width = 25
           Height = 26
           Color = clWhite
@@ -184,6 +184,23 @@ object frm_input_charge: Tfrm_input_charge
           BoundLabel.Layout = sclLeft
           BoundLabel.MaxWidth = 0
           BoundLabel.UseSkinColor = True
+        end
+        object ck_satu_org: TsCheckBox
+          Left = 55
+          Top = 23
+          Width = 153
+          Height = 24
+          Caption = 'Tambah Orang (satu)'
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -15
+          Font.Name = 'Calibri'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 2
+          SkinData.SkinSection = 'CHECKBOX'
+          ImgChecked = 0
+          ImgUnchecked = 0
         end
       end
       object sGroupBox6: TsGroupBox
@@ -674,7 +691,7 @@ object frm_input_charge: Tfrm_input_charge
   end
   object sPanel2: TsPanel
     Left = 0
-    Top = 369
+    Top = 397
     Width = 344
     Height = 60
     Align = alBottom

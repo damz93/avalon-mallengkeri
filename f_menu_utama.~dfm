@@ -1,6 +1,6 @@
 object frm_utama: Tfrm_utama
-  Left = 234
-  Top = 160
+  Left = 199
+  Top = 131
   Align = alClient
   BorderStyle = bsToolWindow
   Caption = 'Avalon Studio'

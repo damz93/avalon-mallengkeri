@@ -5142,10 +5142,10 @@ object frm_ttg_aplikasi: Tfrm_ttg_aplikasi
       Font.Style = [fsItalic]
     end
     object sWebLabel1: TsWebLabel
-      Left = 154
-      Top = 96
-      Width = 77
-      Height = 26
+      Left = 170
+      Top = 80
+      Width = 38
+      Height = 78
       Caption = 'di Sini! :)'
       Color = clBackground
       ParentColor = False
